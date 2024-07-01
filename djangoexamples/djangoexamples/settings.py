@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ajax_chartjs',
+    'crispy_forms',
     'login_regist',
 ]
 
