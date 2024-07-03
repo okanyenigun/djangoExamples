@@ -29,6 +29,8 @@ INSTALLED_APPS = [
     'ajax_chartjs',
     'crispy_forms',
     'login_regist',
+    'pleasewait',
+
 ]
 
 MIDDLEWARE = [
