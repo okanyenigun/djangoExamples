@@ -22,3 +22,8 @@ def check_test_cookie(request):
         return HttpResponse("Test cookie worked!")
     else:
         return HttpResponse("Test cookie failed!")
+
+
+
+def home(request):
+    return HttpResponse("Welcome to the homepage!")
