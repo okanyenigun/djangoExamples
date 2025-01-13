@@ -28,10 +28,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ajax_chartjs',
     'crispy_forms',
+    'general_examples',
     'login_regist',
     'pleasewait',
     'autocomplete',
-
 ]
 
 MIDDLEWARE = [

@@ -7,4 +7,5 @@ urlpatterns = [
     path('loginRegister/', include('login_regist.urls')),          
     path('pleasewait/', include('pleasewait.urls')),          
     path('autocomplete/', include('autocomplete.urls')),          
+    path('general/', include('general_examples.urls')),          
 ]
