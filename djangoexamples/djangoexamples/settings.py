@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'login_regist',
     'pleasewait',
     'autocomplete',
+    'middle',
 ]
 
 MIDDLEWARE = [
@@ -42,6 +43,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'middle.middleware.custom_middleware.CustomDemoMiddleware',
 ]
 
 ROOT_URLCONF = 'djangoexamples.urls'
